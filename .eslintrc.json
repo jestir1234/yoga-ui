@@ -1,0 +1,25 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": "airbnb",
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "rules": {
+        "import/no-extraneous-dependencies": "off",
+        "react/jsx-filename-extension": "off",
+        "no-use-before-define": "off",
+        "camelcase": "off",
+        "react/prop-types": "off"
+    },
+    "settings": {
+        "import/resolver": {
+         "node": {
+           "paths": ["src"]
+         }
+       }
+    }
+}
